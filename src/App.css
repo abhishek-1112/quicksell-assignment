@@ -73,13 +73,15 @@ gap : 10px;
       .row-header{
         padding-top: 30px;
           margin-bottom: 30px;
+        display: flex;
+        flex-direction : row;
+                align-items: center;
+        justify-content: space-between;
         div{
           display: flex;
           gap : 15px;
         }
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+
       }
 
 
